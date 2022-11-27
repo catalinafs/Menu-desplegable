@@ -1,0 +1,54 @@
+:root{
+    --1: #b53838;
+    --2: #3abac2;
+}
+
+*{
+    text-decoration: none;
+}
+
+body{
+    height: 790px;
+    background-color: var(--1);
+}
+
+/*clase imaginaria*/
+.buttones{
+    width: 250px;
+}
+
+.main-container{
+    margin: 40px;
+    position: absolute;
+}
+
+.menu{
+    background-color: var(--2);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.buttons:hover{
+    background-color: var(--1);
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: var(--2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image-open-close-btn{
+    width: 25px;
+}
